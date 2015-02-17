@@ -3,6 +3,11 @@
 	<title>business</title>
 </head>
 <body>
-	Hello World!
+	business list:
+	<ul>
+		{% for b in business %}
+		<li>{{b.name}}</li>
+		{% endfor %}
+	</ul>
 </body>
 </html>
